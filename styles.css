@@ -127,6 +127,14 @@ img {
     font-family: 'magra', sans-serif;
 }
 
+[aos="fade"] {
+    opacity: 0;
+    transition-property: opacity;
+  }
+
+[aos="fade"].aos-animate {
+    opacity: 1;
+}
 
 @media (min-width: 600px) {
 /* STRUCTURE & LAYOUT incl. padding, margins, alignment, height, width */
