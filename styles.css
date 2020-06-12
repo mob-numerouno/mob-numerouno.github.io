@@ -1,34 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,669;0,700;0,800;0,900;1,400;1,500;1,600;1,669;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Magra:wght@400;700&display=swap');
 
-/* STRUCTURE & LAYOUT incl. padding, margins, alignment, height, width */                                                                                                         
+/* STRUCTURE & LAYOUT incl. padding, margins, alignment, height, width */
 html {
     text-align: center;
 }
 
 header {
-height: 200px;
+height: 160px;
 
+}
+
+.logo {
+    height: auto;
 }
 
 h2 {
-    padding: 10px 0px 10px 0px;
+    padding: 80px 0px 80px 0px;
 }
 
 .about-mob{
-    display: flex;
-    max-width: 600px;
-    text-align: center;
-    justify-content: center;
-
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 img {
     width: 30%;
+    height: auto;
+    max-width: 190px;
     margin: 0px;
     padding: 0px;
     border: 0px;
-  }
+}
 
 body {
     margin: 0;
@@ -86,7 +89,11 @@ body {
     color: #888888;
 }
 
-.right { 
+article{
+background-color: #f0f0f0;
+}
+
+.right {
     box-shadow: 3px 3px 10px 0px rgba(160, 160, 160, 0.19);
 }
 
@@ -114,20 +121,17 @@ img {
     transition: 400ms ease-in-out;
 }
 
-
-.logo {
-    margin: 0;
-}
 .mail{
     text-decoration: none;
     color: teal;
-    font-family: 'magra', sans-serif    ;
+    font-family: 'magra', sans-serif;
 }
+
 
 @media (min-width: 600px) {
 /* STRUCTURE & LAYOUT incl. padding, margins, alignment, height, width */
 .bio {
-    
+
 }
 
 .right{
@@ -138,11 +142,12 @@ img {
     margin-right: 15%;
 }
 
-img {
+.pic {
     width: 15%;
     height: auto;
     margin: 1%;
-    }
+}
+
 }
 
 /* THEME & DESIGN incl. colors, fonts, shadows, border formatting */
