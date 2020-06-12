@@ -119,10 +119,7 @@ article {
   margin: 10%;
 }
 
-img {
-  /* box-shadow: 3px 3px 10px 0px rgba(160, 160, 160, 0.19); */
-  /* moved above rule to .pic so it wouldnt affect the logo */
-}
+
 
 .pic {
   box-shadow: 3px 3px 10px 0px rgba(160, 160, 160, 0.19);
@@ -153,7 +150,7 @@ img {
   h2 {
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
-    /*font-family: 'Rokkitt', serif;*/
+
     font-weight: 300;
     font-style: italic;
   }
